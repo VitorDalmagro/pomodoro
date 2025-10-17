@@ -1,7 +1,7 @@
 // PascalCase no nome da função/ componente
+import "./styles/theme.css";
+import "./styles/global.css";
 function App() {
-  console.log("Oi");
-
   return (
     <>
       <h1>Olá mundo!</h1>
