@@ -1,10 +1,13 @@
 // PascalCase no nome da função/ componente
+import { Heading } from "./components/Heading/Heading";
+
 import "./styles/theme.css";
 import "./styles/global.css";
+
 function App() {
   return (
     <>
-      <h1>Olá mundo!</h1>
+      <Heading />
       <p>
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias iusto
         assumenda veritatis beatae dolorem. Iure unde tenetur harum modi
