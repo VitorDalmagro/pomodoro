@@ -3,11 +3,17 @@ import { Heading } from "./components/Heading/Heading";
 
 import "./styles/theme.css";
 import "./styles/global.css";
+import { TimerIcon } from "lucide-react";
 
 function App() {
   return (
     <>
-      <Heading>Olá meu fi</Heading>
+      <Heading>
+        Olá meu fi
+        <button>
+          <TimerIcon />
+        </button>
+      </Heading>
       <p>
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias iusto
         assumenda veritatis beatae dolorem. Iure unde tenetur harum modi
