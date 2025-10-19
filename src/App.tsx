@@ -7,7 +7,7 @@ import "./styles/global.css";
 function App() {
   return (
     <>
-      <Heading />
+      <Heading>Olá meu fi</Heading>
       <p>
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias iusto
         assumenda veritatis beatae dolorem. Iure unde tenetur harum modi

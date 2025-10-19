@@ -1,7 +1,7 @@
 import styles from "./Heading.module.css";
 
-function Heading() {
-  return <h1 className={styles.heading}>Olá Mundo!</h1>;
+function Heading(props) {
+  return <h1 className={styles.heading}>{props.children}</h1>;
 }
 
 export { Heading };
